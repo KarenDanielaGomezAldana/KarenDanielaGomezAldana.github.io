@@ -9,16 +9,33 @@ body{
 }
 aside{
     margin-top: 0%;
-    background-color:#20dbd8;
+    background-color:#145b8d;
     color: black;
     height: 20px;
     width: 100%;
 }
+h1{
+  display:inline;
+  font-family: 'Jura', sans-serif;
+  /* font-family: 'Quicksand', sans-serif; */
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  margin-left: 30px;
+  color: black;
+  font-weight: 1500px;
+}
+h1::before {
+  font-family: "Font Awesome 5 Free"; font-weight: 900; font-size: 32px; color:#145b8d; content: "\f651";
+  padding: 10px;
+}
 /* Add a black background color to the top navigation bar */
 .topnav {
-    overflow: hidden;
-    background-color: #146b81;
-  }
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  background-color: white;
+}
   /* Style the links inside the navigation bar */
   .topnav a {
     float: left;
@@ -38,9 +55,8 @@ aside{
     float: center;
     padding: 6px;
     border-radius: 30px;
-    border-color: transparent;
-    margin-top: 8px;
-    margin-right: 10px;
+    border-color: black;
+    margin-left: 20px;
     width: 500px;
     font-size: 15px;
     color: gray;
@@ -172,16 +188,7 @@ li{
 }
 
 
-h1{
-    font-family: 'Quicksand', sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 80px;
-    color: white;
-    font-weight: 1500px;
-    margin-left: 50px;
 
-}
 
 .typewriter h1 {
     color: #fff;
