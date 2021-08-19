@@ -11,25 +11,59 @@
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="typewriter">
-        <h1>Karen Daniela Gómez Aldana.</h1>
-    </div>
     <header>
-        <div>
-            <span>Hola bebe</span>
+        <aside></aside>
+        <div class="topnav">
+            <a class="active" href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+            <input type="text" placeholder="¿Qué estás buscando?">
         </div>
-        <nav>
-            <ul>    
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">Portafolio</a></li>
-                <li><a href="#">Resume</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Home</a></li>
-
-            </ul>
-        </nav>
-
+        <div class="opciones">   
+            <a href="#">Ofertas del día!</a>
+            <a href="#">Tecnología</a>
+            <a href="#">Moda</a>
+            <a href="#">Salud y Belleza</a>
+            <a href="#">Arte</a>
+            <a href="#">Hogar y jardin</a>
+            <a href="#">Deportes</a>
+            <a href="#">Ofertas</a>
+        </div>
     </header>
+    
+    <!-- <div class="typewriter">
+        <h1>Karen Daniela Gómez Aldana.</h1>
+    </div> -->
+
+    <!-- Slideshow container -->
+<div class="slideshow-container">
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img src="img/imagen-des.jpg" style="width:100%">
+      <div class="text">Caption Text</div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img src="img/imagen-des.jpg" style="width:100%">
+      <div class="text">Caption Two</div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img src="img/imagen-des.jpg" style="width:100%">
+      <div class="text">Caption Three</div>
+    </div>
+  
+  
+  <!-- The dots/circles -->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
+
 
     <a href="proyectos/formulario">Formulario</a>
 
@@ -51,5 +85,6 @@
 
 
     <footer></footer>
+    <script src="doc.js"></script>
 </body>
 </html>
